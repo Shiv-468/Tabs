@@ -43,6 +43,7 @@
   padding: 15px 12px;
   margin-bottom: 0;
   cursor: pointer;
+  margin-bottom: -0.9px;
 }
 
 .tab-content {
@@ -63,5 +64,5 @@
 
 .tabs .active {
   color: #000;
-  border-bottom: 2px solid #128DFF;
+  border-bottom: 1px solid #128DFF;
 }
