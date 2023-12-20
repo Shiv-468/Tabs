@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url(./root.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.ff-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.bg-gray {
+  background: #F7F7F7;
+}
+
+.tabs-card {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 29px 25px 34px;
+  margin-top: 43px;
+  max-width: 540px;
+  box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+  transition: all 400ms linear;
+}
+
+.tabs-card:hover {
+  box-shadow: 0px 0px 24px -3px rgba(0, 0, 0, 1);
+}
+
+.tabs {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.tab-head {
+  padding: 15px 12px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.tab-content {
+  padding-top: 22px;
+}
+
+.lh-150 {
+  line-height: 150%;
+}
+
+.tab-content div {
+  display: none;
+}
+
+.tab-content .active {
+  display: block;
+}
+
+.tabs .active {
+  color: #000;
+  border-bottom: 2px solid #128DFF;
+}
